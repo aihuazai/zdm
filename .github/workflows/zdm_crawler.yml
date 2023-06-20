@@ -3,7 +3,8 @@ name: zdm_crawler
 on:
   #将下面两行代码取消注释
   schedule:
-    - cron: "30/22 15/02 * * * *"
+    - cron: "30/22 * * * *"
+    - cron: "30/02 * * * *"
   workflow_dispatch:
 jobs:
   build:
