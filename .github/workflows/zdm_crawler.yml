@@ -11,6 +11,7 @@ on:
     - cron: "30/14 * * * *"
     - cron: "30/22 * * * *"
   workflow_dispatch:
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -29,7 +30,7 @@ jobs:
     - name: main logic
       env:
         # 点值的数量>minVoted,才会被推送,填0为都推送
-        minVoted: 12
+        minVoted: 10
         # 评论的数量>minComments,才会被推送,填0为都推送
         minComments: 3
         # 优惠信息数量>MIN_PUSH_SIZE就会发邮件,否则积累到下一次触发任务再决定是否推送. 不建议填太小的数字,避免邮件太多了
@@ -50,6 +51,6 @@ jobs:
       uses: actions-go/push@master
       with:
         author-email: '862655699@qq.com'
-        author-name: 'aihuazai'
+        author-name: 'jy'
         commit-message: 'update articles'
         token: ${{ secrets.GIT_TOKEN }}
