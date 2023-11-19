@@ -1,0 +1,1 @@
+{"article_comment":"10","article_id":"97146078","article_mall":"京东","article_pic_url":"https://qny.smzdm.com/202310/23/65365d3f2483e1014.jpg_d200.jpg","article_price":"4149元（需用券）","article_rating":"11","article_title":"AMD RADEON RX 6950 XT台式机显卡 7nm AMD RDNA2架构 16GB GDDR6游戏电竞吃鸡显卡","article_url":"https://www.smzdm.com/p/97146078/","pushed":false}
